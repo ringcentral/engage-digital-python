@@ -1,0 +1,6 @@
+#!/bin/bash
+cd `dirname $0`
+cd ..
+
+## now test
+python3 test/basic_spec.py
