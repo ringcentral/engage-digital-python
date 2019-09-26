@@ -2,5 +2,8 @@
 cd `dirname $0`
 cd ..
 rm -rf dist
-python3 setup.py sdist bdist_wheel
+source venv/bin/activate
+python setup.py sdist bdist_wheel
+source venv2/bin/activate
+python setup.py sdist bdist_wheel
 twine upload dist/*
