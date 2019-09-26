@@ -1,7 +1,7 @@
 import setuptools
 import json
 
-version = '0.1.0'
+version = '0.2.0'
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
@@ -23,6 +23,7 @@ setuptools.setup(
     install_requires=[i.strip() for i in open('requirements.txt').readlines()],
     classifiers=[
         "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 2",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],

@@ -21,7 +21,7 @@ except:
 class TestBot(unittest.TestCase):
 
   def test_basic_bot(self):
-    print('running bot basic test')
+    print('running basic test')
     rc = RestClient(
       RINGCENTRAL_ENGAGE_API_TOKEN,
       RINGCENTRAL_ENGAGE_SERVER_URL

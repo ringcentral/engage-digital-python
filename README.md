@@ -20,6 +20,8 @@ assertEqual(len(r.json['records']) > 0, True)
 ## Test
 
 ```bash
+bin/init
+source venv/bin/activate
 cp .sample.env .env
 # edit .env fill your server and spi key
 npm run test
