@@ -1,7 +1,7 @@
 import setuptools
 import json
 
-version = '0.3.0'
+version = '0.3.1'
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
@@ -17,7 +17,7 @@ setuptools.setup(
     description="RingCentral Engage Digital client Python",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ringcentral/engage-digital-client-python",
+    url="https://github.com/ringcentral/engage-digital-python",
     packages=setuptools.find_packages(),
     keywords=['RingCentral', 'Engage Digital', 'sdk'],
     install_requires=[i.strip() for i in open('requirements.txt').readlines()],
