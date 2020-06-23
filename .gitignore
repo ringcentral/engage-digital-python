@@ -112,12 +112,7 @@ venv.bak/
 /package-lock.json
 /yarn.lock
 /node_modules
-/dev/lambda/serverless.yml
-/dev/lambda/requirements.txt
 .serverless
-/dev/lambda/ringcentral_bot_framework
-/custom_db.py
-/ringcentral_bot_framework.egg-info
 *.db
 .DS_Store
 *~

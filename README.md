@@ -4,6 +4,12 @@ Simple Python API wrapper for RingCentral Engage Digital api. [api docs](https:/
 
 [![Build Status](https://travis-ci.org/ringcentral/engage-digital-python.svg?branch=test)](https://travis-ci.org/ringcentral/engage-digital-python)
 
+## Install
+
+```sh
+pip3 install ringcentral_engage_digital
+```
+
 ## Usage
 
 ```python
@@ -19,12 +25,23 @@ assertEqual(len(r.json['records']) > 0, True)
 
 ## Test
 
+With virtaul env, make sure you have pip3 and python3.6+
+
 ```bash
 bin/init
 source venv/bin/activate
 cp .sample.env .env
-# edit .env fill your server and spi key
-npm run test
+# edit .env fill all fields
+bin/test
+```
+
+Without virtaul env, make sure you have pip3 and python3.6+
+
+```sh
+pip3 install python-dotenv pydash pylint twine
+cp .sample.env .env
+# edit .env fill all fields
+bin/test
 ```
 
 ## Credits
