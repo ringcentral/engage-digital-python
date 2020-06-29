@@ -27,6 +27,14 @@ class TestBot(unittest.TestCase):
       RINGCENTRAL_ENGAGE_SERVER_URL
     )
     r = rc.get('/1.0/roles')
+    try:
+      r = rc.post('/1.0/roles')
+    except Exception as e:
+      x = str(e)
+      self.assertEqual(
+        '401' in x or '404' in x or '422' in x,
+        True
+      )
     self.assertEqual(len(r.json()['records']) > 0, True)
 
 if __name__ == '__main__':

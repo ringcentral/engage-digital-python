@@ -3,11 +3,16 @@
 Simple Python API wrapper for RingCentral Engage Digital api. [api docs](https://engage-api-docs.readthedocs.io/).
 
 [![Build Status](https://travis-ci.org/ringcentral/engage-digital-python.svg?branch=test)](https://travis-ci.org/ringcentral/engage-digital-python)
+[![Coverage Status](https://coveralls.io/repos/github/ringcentral/engage-digital-python/badge.svg?branch=test)](https://coveralls.io/github/ringcentral/engage-digital-python?branch=test)
 
-## Install
+## Installation
+
+### PIP
 
 ```sh
-pip3 install ringcentral_engage_digital
+pip3 install ringcentral_engage_voice
+# or
+pip install ringcentral_engage_voice
 ```
 
 ## Usage
@@ -38,7 +43,9 @@ bin/test
 Without virtaul env, make sure you have pip3 and python3.6+
 
 ```sh
-pip3 install python-dotenv pydash pylint twine
+
+pip3 install -r requirements-dev.txt
+pip3 install -r requirements.txt
 cp .sample.env .env
 # edit .env fill all fields
 bin/test

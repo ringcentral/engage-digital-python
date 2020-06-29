@@ -1,12 +1,12 @@
 import pydash as _
-try:  # py3
+try:  # py3 # pragma: no cover
     import urllib.parse as urlparse
-except:  # py2
+except:  # py2 # pragma: no cover
     import urlparse
 from requests import Request, Session
 
 version = 'dev'
-try:
+try: # pragma: no cover
   with open("version", "r") as fh:
     version = fh.read()
 except:

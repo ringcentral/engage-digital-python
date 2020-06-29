@@ -3,4 +3,6 @@ cd `dirname $0`
 cd ..
 
 ## now test
-python3 test/basic_spec.py
+# coverage run test/engage_voice_lagecy_spec.py
+coverage run test/basic_spec.py
+coverage report -m
