@@ -2,7 +2,7 @@
 
 Simple Python API wrapper for RingCentral Engage Digital api. [api docs](https://engage-api-docs.readthedocs.io/).
 
-[![Build Status](https://travis-ci.org/ringcentral/engage-digital-python.svg?branch=test)](https://travis-ci.org/ringcentral/engage-digital-python)
+[![Build Status](https://travis-ci.com/ringcentral/engage-digital-python.svg?branch=test)](https://travis-ci.com/ringcentral/engage-digital-python)
 [![Coverage Status](https://coveralls.io/repos/github/ringcentral/engage-digital-python/badge.svg?branch=test)](https://coveralls.io/github/ringcentral/engage-digital-python?branch=test)
 
 ## Installation
